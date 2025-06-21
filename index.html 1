@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>K Beauty Supply</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      background: url('https://images.unsplash.com/photo-1607083206173-bef3a5d3d34e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    header {
+      background-color: rgba(255, 240, 245, 0.95);
+      padding: 2.5rem;
+      text-align: center;
+      color: #3a2c2c;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 1rem;
+    }
+    .info {
+      background: #ffffff;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    }
+    .info h2 {
+      color: #c14477;
+      margin-top: 0;
+    }
+    .contact a {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .facebook {
+      color: #3b5998;
+    }
+    .whatsapp {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .product {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+    .product h3 {
+      margin: 0.5rem 0;
+      color: #b0356d;
+    }
+    .product p {
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #fce4ec;
+      font-size: 0.9rem;
+      color: #5a4a4a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>K Beauty Supply</h1>
+    <p>Premium Korean Skincare Delivered to You – Los Angeles, CA</p>
+  </header>
+
+  <section>
+    <div class="info">
+      <h2>About Us</h2>
+      <p>K Beauty Supply is a premier wholesale distributor of top-tier Korean skincare and wellness products. Based in Los Angeles, we import directly from Korea to bring you the finest in beauty innovation. From soothing toners to hydrating serums, we cater to salons, spas, and retail stores across the U.S.</p>
+    </div>
+
+    <div class="info">
+      <h2>Featured Products</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://cdn.shopify.com/s/files/1/0554/3477/3213/products/Beauty-of-Joseon-Glow-Serum.jpg?v=1626236623" alt="Hyaluronic Serum" />
+          <h3>Hyaluronic Acid Serum</h3>
+          <p><strong>$38.00</strong></p>
+          <p>Deeply hydrates, plumps skin, and reduces fine lines. Great for dry and combination skin types.</p>
+        </div>
+        <div class="product">
+          <img src="https://cdn.shopify.com/s/files/1/0249/1218/8894/products/Advanced-Snail-92-All-In-One-Cream.jpg?v=1635305272" alt="Snail Cream" />
+          <h3>Snail Repair Cream</h3>
+          <p><strong>$45.00</strong></p>
+          <p>Promotes skin healing, boosts elasticity, and smooths rough textures for a radiant look.</p>
+        </div>
+        <div class="product">
+          <img src="https://cdn.shopify.com/s/files/1/0554/3477/3213/products/ROUNDLAB-Birch-Juice-Moisturizing-Sun-Cream-SPF50.jpg?v=1626236673" alt="Sunscreen" />
+          <h3>SPF 50+ Korean Sunscreen</h3>
+          <p><strong>$29.00</strong></p>
+          <p>Lightweight daily sunscreen that protects, moisturizes, and brightens without any greasy residue.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <h2>Business Hours</h2>
+      <p>Monday – Friday: 10:00 AM – 9:00 PM</p>
+    </div>
+
+    <div class="info contact">
+      <h2>Contact Us</h2>
+      <p>
+        📘 <a class="facebook" href="https://www.facebook.com/Helena.Wisniewska.1010" target="_blank">Facebook Profile</a>
+      </p>
+      <p>
+        💬 <a class="whatsapp" href="https://wa.me/19518019232" target="_blank">Chat on WhatsApp</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 K Beauty Supply – All rights reserved.
+  </footer>
+
+</body>
+</html>
